@@ -1,0 +1,92 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+h1.titulo {
+  text-align: center;
+  margin: 20px 0;
+  font-size: 24px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 0 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.text-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.msg h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons img {
+  width: 40px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
